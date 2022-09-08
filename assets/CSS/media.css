@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px) {
+    .nav-cont{
+        visibility: hidden;
+    }
+
+    .less-more .space h3 {
+        font-size: 24px;
+        padding-left: 0px;
+        text-align: left;
+    }
+    .less-more .space p{
+        font-size: 18px;
+        text-align: left;
+        padding: 0;
+    }
+    .less-more-img{
+        float: none;
+        min-width: 100%;
+    }
+    .less-more-cont {
+        float: none;
+        min-width: 100%;
+        padding: 0;
+    }
+    .visual-art-img{
+        float: none;
+        min-width: 100%;
+    }
+    .visual-art-cont{
+        float: none;
+        min-width: 100%;
+        padding-top: 5px;
+    }
+    .counter{
+        min-height: 1100px;
+    }
+    .counter span ul{
+        display: block;
+        min-width: 100%;
+        padding: 0px;
+    }
+    .overlay2{
+        min-height: 1100px;
+    }
+    .desc{
+        padding-top: 50px;
+        min-height: 600px;
+        padding: 0px;
+    }
+    .desc ul {
+        display: block;
+        min-width: 100%;
+    }
+    .tes-left{
+        float: none;
+        min-width: 100%;
+        padding: 4px;
+        padding-top: 1px;
+    }
+    .tes-left p{
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+    .tes-right{
+        visibility: hidden;
+    }
+    .visual-art iframe{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .footer-about{
+        float: none;
+        min-width: 100%;
+    }
+    .footer-open{
+        float: none;
+        min-width: 100%;
+    }
+    .footer-cont{
+        float: none;
+        min-width: 100%;
+    }
+    .footer{
+        min-height: 1000px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .nav-cont{
+        visibility: hidden;
+    }
+    .counter span ul{
+        display: inline-block;
+        min-width: 30%;
+        min-height: 300px;
+        padding: 1px;
+    }
+    .desc{
+        padding-top: 50px;
+        height: 250px;
+        padding: 40px;
+        min-height: 500px;
+    }
+    .desc ul {
+        display: block;
+        min-width: 100%;
+    }
+    .visual-art iframe{
+        max-width: 300px;
+        max-height: 300px;
+        padding-top: 80px;
+    }
+}
